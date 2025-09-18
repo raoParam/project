@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/home';
+import Home from '../Components/home';
 import DocsPage from '../Docs/DocsPage';
 import ChatInterface from './Components/chatInterface';
 import Layout from './Components/Layout';
