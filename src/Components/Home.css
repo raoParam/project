@@ -1,0 +1,10 @@
+.c{
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+}
+
+#hea{
+    margin-left: 0px;
+}
