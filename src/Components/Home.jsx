@@ -264,7 +264,7 @@ import { Link } from 'react-router-dom';
 import DocsPage from '../../Docs/DocsPage';
 import VideoPlayer from '../../public/videos/VideoPlayer';
 import logo2 from '../assets/logo2.png';
-import Faqs from './faq';
+import Faqs from './Faq.jsx';
 import './footer.css';
 import './Home.css';
 
@@ -450,3 +450,4 @@ const li = {
 };
 
 export default Home;
+
