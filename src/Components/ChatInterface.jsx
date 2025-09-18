@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import InputSection from './inputsection';
+import InputSection from './InputSection.jsx';
 import './ChatInterface.css';
 
 const ChatInterface = () => {
@@ -91,6 +91,7 @@ const ChatInterface = () => {
     </>
   );
 };
+
 
 
 
