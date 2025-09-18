@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import InputSection from './InputSection.jsx';
-import './ChatInterface.css';
+import './chatInterface.css';
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
@@ -96,3 +96,4 @@ const ChatInterface = () => {
 
 
 export default ChatInterface;
+
