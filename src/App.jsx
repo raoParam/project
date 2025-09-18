@@ -1,9 +1,9 @@
 // App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../Components/home';
+import Home from './Components/Home.jsx';
 import DocsPage from '../Docs/DocsPage';
-import ChatInterface from './Components/chatInterface';
+import ChatInterface from './Components/ChatInterface.jsx';
 import Layout from './Components/Layout';
 
 const App = () => {
