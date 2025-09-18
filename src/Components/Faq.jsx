@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Faqs.css'; 
+import './faqs.css'; 
 import { argoFloatsQA } from './FAQs';
 
 const Faqs = () => {
@@ -43,5 +43,6 @@ const Faqs = () => {
     </div>
   );
 };
+
 
 export default Faqs;
