@@ -12,7 +12,7 @@ const Footer = () => {
           <p className="footer-text">+91 8780262406</p>
           <p className="footer-text">
             <a href="mailto:support@company.com" className="footer-link">
-              support@company.com
+              24csdev043@ldce.ac.in
             </a>
           </p>
         </div>
@@ -52,4 +52,5 @@ const Footer = () => {
 
 
 export default Footer;
+
 
