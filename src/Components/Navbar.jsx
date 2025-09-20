@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import logo2 from "../assets/logo2.png";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -37,7 +36,7 @@ const Navbar = () => {
         `}
       </style>
       
-      <div style={appNameStyle}><img src={logo2} style = {{ height : "10px" , width : "auto"}} alt="FlowChat Logo" /> FlowChat – Ocean Data Assistant</div>
+      <div style={appNameStyle}> FlowChat – Ocean Data Assistant</div>
       
      
     </nav>
@@ -78,4 +77,5 @@ const appNameStyle = {
 
 
 export default Navbar;
+
 
