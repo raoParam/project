@@ -37,7 +37,7 @@ const Footer = () => {
 
         <div className="footer-section">
           <div className="image">
-            <img width={400} height={300}  src={groupPhoto} alt="Group" />          
+            <img width={200} height={150}  src={groupPhoto} alt="Group" />          
           </div>
         </div>
 
@@ -49,5 +49,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
