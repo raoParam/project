@@ -37,7 +37,7 @@ const Navbar = () => {
         `}
       </style>
       
-      <div style={appNameStyle}>🌊 FlowChat – Ocean Data Assistant</div>
+      <div style={appNameStyle}><img src={logo2} style = {{ height : "10px" , width : "auto"}} alt="FlowChat Logo" /> FlowChat – Ocean Data Assistant</div>
       
      
     </nav>
@@ -73,6 +73,7 @@ const appNameStyle = {
   textShadow: '1px 1px 2px rgba(0,0,0,0.1)',
   letterSpacing: '1px'
 };
+
 
 
 
