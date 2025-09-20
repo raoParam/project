@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+import logo2 from "../assets/logo2.png";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -78,3 +78,4 @@ const appNameStyle = {
 
 
 export default Navbar;
+
